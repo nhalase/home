@@ -1,5 +1,4 @@
 *
 !.gitignore
+!.vim/*
 !.vimrc
-!.vim/bundle/*
-!.vim/colors/*
