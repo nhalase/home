@@ -1,0 +1,38 @@
+[global_config]
+  borderless = True
+  homogeneous_tabbar = False
+  scroll_tabbar = True
+  tab_position = hidden
+  title_font = Hack 9
+  title_hide_sizetext = True
+  title_inactive_bg_color = "#000000"
+  title_inactive_fg_color = "#cccccc"
+  title_transmit_bg_color = "#000000"
+  title_transmit_fg_color = "#cccccc"
+  window_state = maximise
+[keybindings]
+[layouts]
+  [[default]]
+    [[[child1]]]
+      parent = window0
+      profile = default
+      type = Terminal
+    [[[window0]]]
+      parent = ""
+      type = Window
+[plugins]
+[profiles]
+  [[default]]
+    background_color = "#2d2d2d"
+    background_darkness = 0.97
+    background_type = transparent
+    cursor_color = "#cccccc"
+    font = Hack 10
+    foreground_color = "#cccccc"
+    icon_bell = False
+    palette = "#000000:#f2777a:#99cc99:#ffcc66:#6699cc:#cc99cc:#66cccc:#ffffff:#000000:#f2777a:#99cc99:#ffcc66:#6699cc:#cc99cc:#66cccc:#ffffff"
+    scroll_on_keystroke = False
+    scrollback_infinite = True
+    scrollbar_position = hidden
+    show_titlebar = False
+    use_system_font = False
